@@ -27,7 +27,7 @@ namespace CommandsService.EventProcessing
             switch (eventType)
             {
                 case EventType.PlatformPublished:
-                    // TODO
+                    addPlatform(message);
                     break;
 
                 default:
